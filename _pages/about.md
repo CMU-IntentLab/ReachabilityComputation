@@ -3,6 +3,7 @@ permalink: /
 title: "Reachability Overview"
 excerpt: "This is an overview on Hamilton-Jacobi Reachability"
 sitemap: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
