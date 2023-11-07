@@ -1,13 +1,13 @@
 ---
-title: "Grid-based Methods"
-excerpt: "This is an overview on Hamilton-Jacobi Reachability"
+title: "ISAACS Tutorial"
+excerpt: "ISAACS"
 sitemap: true
 redirect_from: 
-  - /grid/
-  - /grid.html
+  - /isaacs/
+  - /isaacs.html
 ---
 
-W.I.P.
+W.I.P. for the Iterative Soft Adversarial Actor Critic for Safety
 
 <script type="text/javascript">
   var GOOG_FIXURL_LANG = 'en';

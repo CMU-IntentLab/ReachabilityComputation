@@ -1,13 +1,13 @@
 ---
-title: "Grid-based Methods"
-excerpt: "This is an overview on Hamilton-Jacobi Reachability"
+title: "Deepreach Tutorial"
+excerpt: "Deepreach"
 sitemap: true
 redirect_from: 
-  - /grid/
-  - /grid.html
+  - /deepreach/
+  - /deepreach.html
 ---
 
-W.I.P.
+W.I.P. for deepreach
 
 <script type="text/javascript">
   var GOOG_FIXURL_LANG = 'en';
