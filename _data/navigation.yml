@@ -1,22 +1,14 @@
 # main links links
 main:
-  - title: "Reachability Overview"
-    url: /ReachabilityOverview/
+  - title: "Grid-based Methods"
+    url: /grid/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Deepreach"
+    url: /deepreach/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "ISAACS"
+    url: /isaacs/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Advanced Topics"
+    url: /advanced/
         
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/

@@ -1,14 +1,13 @@
 ---
-permalink: /
-title: "Reachability Overview"
+title: "Grid-based Methods"
 excerpt: "This is an overview on Hamilton-Jacobi Reachability"
 sitemap: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /grid/
+  - /grid.html
 ---
 
-This website is intended to be a centralized resource for researchers computing the solution to HJ PDEs.
+W.I.P.
 
 <script type="text/javascript">
   var GOOG_FIXURL_LANG = 'en';
