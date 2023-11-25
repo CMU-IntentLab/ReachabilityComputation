@@ -23,7 +23,7 @@ $$ \dot{\mathbf{x}} = \begin{bmatrix} v \cos \theta \\ v \sin \theta \\ \omega \
 
 Now, define the joint dynamics of the system such that player 1 (the ego player) is fixed at the origin facing the positive $x_{rel}$ axis
 
-$$ \dot{\mathbf{x}} = \begin{bmatrix} x_{rel} \\ y_{rel} \\ \theta_{rel} \\ v_{1} \\ v_{2} \end{bmatrix} = \begin{bmatrix} -v_{1} + v_{2}\cos \theta_{rel} + \omega_{1} y_{rel} \\ v_{2}\sin \theta_{rel} - \omega_{1} x_{rel} \\ \omega_{2} - \omega_{1} \\ a_1 \\ a_2 \end{bmatrix}, $$
+$$ \dot{\mathbf{x}} = \frac{d}{dt} \begin{bmatrix} x_{rel} \\ y_{rel} \\ \theta_{rel} \\ v_{1} \\ v_{2} \end{bmatrix} = \begin{bmatrix} -v_{1} + v_{2}\cos \theta_{rel} + \omega_{1} y_{rel} \\ v_{2}\sin \theta_{rel} - \omega_{1} x_{rel} \\ \omega_{2} - \omega_{1} \\ a_1 \\ a_2 \end{bmatrix}, $$
 
 where $u = [\omega_1, a_1]$ is the ego control and $d = [\omega_2, a_2]$ is the disturbance control. Now, define the vector 
 
@@ -32,12 +32,12 @@ $$ p := \begin{bmatrix} p_1 \\ p_2 \\ p_3 \\ p_4 \\ p_5 \end{bmatrix} = \begin{b
 
 Then the Hamiltonian is given by 
 
-$$ \min_{u \in \mathcal{U}_1} \max_{d \in \mathcal{D}} p_1(-v_{1} + v_{2}\cos \theta_{rel} + \omega_{1} y_{rel}) + p_2(v_{2}\sin \theta_{rel} - \omega_{1} x_{rel}) + p_3(\omega_{2} - \omega_{1}) + p_4 a_1 + p_5 a_2 $$
+$$ \min_{u \in \mathcal{U}_1} \max_{d \in \mathcal{D}} \; p_1(-v_{1} + v_{2}\cos \theta_{rel} + \omega_{1} y_{rel}) + p_2(v_{2}\sin \theta_{rel} - \omega_{1} x_{rel}) \\+ p_3(\omega_{2} - \omega_{1}) + p_4 a_1 + p_5 a_2 $$
 
 
 By factoring out the control inputs for each player this can be simplified to:
 
-$$ \min_{u \in \mathcal{U}} \max_{d \in \mathcal{D}}  \omega_{1}(p_1 y_{rel} - p_2 x_{rel} - p_3) \\ + \omega_{2} p_3 + a_1 p_4 + a_2 p_5 + constants. $$
+$$ \min_{u \in \mathcal{U}} \max_{d \in \mathcal{D}}  \omega_{1}(p_1 y_{rel} - p_2 x_{rel} - p_3) + \omega_{2} p_3 \\ + a_1 p_4 + a_2 p_5 + constants. $$
 
 If $u \in [u_{min}, u_{max}]$ where $u_{min} := [\omega_{min}, a_{min}]$ and $u_{max} :=  [\omega_{max}, a_{max}]$ (similarly for $d$) then the Hamiltonian can be computed using the following rules:
 
