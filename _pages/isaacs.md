@@ -7,6 +7,9 @@ redirect_from:
   - /isaacs.html
 ---
 
+Contributers: Kensuke Nakamura
+
+
 W.I.P. for the Iterative Soft Adversarial Actor Critic for Safety
 
 <script type="text/javascript">

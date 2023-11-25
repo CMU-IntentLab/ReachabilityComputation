@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "FAQs"
+    url: /FAQs/
+
   - title: "Grid-based Methods"
     url: /grid/
 

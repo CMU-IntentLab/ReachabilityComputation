@@ -7,6 +7,8 @@ redirect_from:
   - /deepreach.html
 ---
 
+Contributers: Kensuke Nakamura
+
 W.I.P. for deepreach
 
 <script type="text/javascript">

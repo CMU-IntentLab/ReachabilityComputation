@@ -7,6 +7,9 @@ redirect_from:
   - /grid.html
 ---
 
+Contributers: Kensuke Nakamura
+
+
 W.I.P. for grid-based methods (HelperOC, Optimized_dp)
 
 <script type="text/javascript">

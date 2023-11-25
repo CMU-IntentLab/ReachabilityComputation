@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Reachability Computation"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Intent Robotics Lab"
 description              : &description "personal description"
 url                      : https://cmu-intentlab.github.io/ReachabilityComputation # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "CMU-IntentLab"
   google_plus      :
   keybase          :
   instagram        :

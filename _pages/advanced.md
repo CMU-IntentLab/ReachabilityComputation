@@ -7,6 +7,9 @@ redirect_from:
   - /advanced.html
 ---
 
+Contributers: Kensuke Nakamura
+
+
 W.I.P. for advanced topics (Connections to Control Barrier Functions, applications to human-robot interaction)
 
 <script type="text/javascript">
