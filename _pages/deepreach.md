@@ -7,9 +7,10 @@ redirect_from:
   - /deepreach.html
 ---
 
-Contributers: Kensuke Nakamura
-
 W.I.P. for deepreach
+
+
+Contributers: Kensuke Nakamura, Zeyuan Feng, Albert Lin, Javier Borquez, Hyun Joe Jeong
 
 <script type="text/javascript">
   var GOOG_FIXURL_LANG = 'en';
